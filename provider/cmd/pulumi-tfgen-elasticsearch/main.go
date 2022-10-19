@@ -15,9 +15,9 @@
 package main
 
 import (
+	elasticsearch "github.com/SamSSV/pulumi-elasticsearch/provider"
+	"github.com/SamSSV/pulumi-elasticsearch/provider/pkg/version"
 	"github.com/pulumi/pulumi-terraform-bridge/v3/pkg/tfgen"
-	elasticsearch "github.com/pulumi/pulumi-elasticsearch/provider"
-	"github.com/pulumi/pulumi-elasticsearch/provider/pkg/version"
 )
 
 func main() {

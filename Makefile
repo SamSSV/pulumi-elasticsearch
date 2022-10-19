@@ -2,8 +2,8 @@ PROJECT_NAME := elasticsearch Package
 
 SHELL            := /bin/bash
 PACK             := elasticsearch
-ORG              := pulumi
-PROJECT          := github.com/SamSSV/${ORG}/pulumi-${PACK}
+ORG              := SamSSV
+PROJECT          := github.com/${ORG}/pulumi-${PACK}
 NODE_MODULE_NAME := @pulumi/${PACK}
 TF_NAME          := ${PACK}
 PROVIDER_PATH    := provider

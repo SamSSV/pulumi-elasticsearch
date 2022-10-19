@@ -19,9 +19,9 @@ package main
 import (
 	_ "embed"
 
+	elasticsearch "github.com/SamSSV/pulumi-elasticsearch/provider"
+	"github.com/SamSSV/pulumi-elasticsearch/provider/pkg/version"
 	"github.com/pulumi/pulumi-terraform-bridge/v3/pkg/tfbridge"
-	elasticsearch "github.com/pulumi/pulumi-elasticsearch/provider"
-	"github.com/pulumi/pulumi-elasticsearch/provider/pkg/version"
 )
 
 //go:embed schema-embed.json
